@@ -20,6 +20,7 @@ body {
   transition: transform 0.3s ease;
   height: 100%;
   min-height: 800px;
+  width: 110%
 }
 
 body.show-nav {
@@ -85,8 +86,8 @@ header {
 }
 
 header h1 {
-  font-size: 5vw;
-  margin: 50px;
+  font-size: 2rem;
+  margin: 5px;
   text-align: center;
 }
 
@@ -171,7 +172,7 @@ h2 {
   animation-duration: var(--modal-duration);
 }
 li{
-  color: #076666;
+  color: #63628f;
 }
 .modal-header {
   background: var(--primary-color);
@@ -220,20 +221,26 @@ li{
 
 .item {
   display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 25px;
+  flex-wrap: wrap-reverse;
+  padding-bottom: 10px;
   border-bottom: #112181 solid 10px;
 
 }
 
-
 .item > div {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  flex: 1;
+  flex: 1 1 0;
   padding: 10px;
 }
+
+.diccionario-acordes > * {
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .diagrama img {
   width: 130px;
@@ -245,7 +252,7 @@ li{
 
 span {
   word-break: keep-all;
-  color: #2f3be2;
+  color: #878ef1;
   font-weight: bold;
 }
 

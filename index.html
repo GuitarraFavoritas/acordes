@@ -9,7 +9,7 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Guitarra </title>
   </head>
   <body>
@@ -22,25 +22,56 @@
       </div>
       <ul>
         <li><a href="index.html">Inicio</a></li> 
-        <li><a href="/acordes/tecnica/tecnica-acordes-D&A.html">Acordes D y A</a></li>
-        <li><a href="/acordes/repertorio/canciones-para-acordes-D&A.html">Repoertorio acordes D y A</a></li>
-        <li><a href="/acordes/wonderwall/wonderwall.html">Wonderwall <br>(Em-G-D-A)</a></li>        
+        <li><a href="../repertorio/tecnica-acordes-D&A.html">Practicar Acordes</a></li>
+        <li><a href="../repertorio/repertorio-D-A.html">Canciones con <br> acordes D y A</a></li>
+        <li><a href="../repertorio/repertorio-D-A-E.html">Canciones con<br> acordes D, A y E</a></li>
+        <li><a href="../wonderwall/wonderwall.html">Wonderwall <br>(Em-G-D-A)</a></li>  
       </ul>
     </nav>
     <header>
       <button class="toggle" id="toggle">
         <i class="fa fa-bars fa-2x"></i>
       </button>
-      <h1>Lecciones de Acordes <br> Acordes D y A</h1>
-      
+      <h1>Ténica para aprender acordes tocando canciones</h1>      
     </header>
-      <div class="container"> 
-        <ul>
-          <li><a href="tecnica/tecnica-acordes-D&A.html">Practica técnica</a></li>
-        <li><a href="repertorio/canciones-para-acordes-D&A.html">Practica con canciones</a></li>
-        </ul>                       
-      </div> 
+      
+    </div>  
+    <div class="container">
+      <ol>
+        <li>
+          <h3 class="cta-btn"><a href="../repertorio/tecnica-acordes-D&A.html"> Practicar Acordes</a></h3>
+        </li>
+        <li>
+          <h3 class="cta-btn"><a href="../repertorio/repertorio-D-A.html"> Canciones con acordes D y A</a></h3>            
+        </li>
+        <li>
+          <h3 class="cta-btn"><a href="../repertorio/repertorio-D-A-E.html"> Canciones con acordes D, A y E</a></h3>
+        </li>
+        <li>
+          <h3 class="cta-btn"><a href="../wonderwall/wonderwall.html"> Wonderwall</a></h3>
+        </li>
+      </ol>    
+    </div> 
+      
+
+
+
+
+    <!------------------ Modal --------------->
     
-    <script src="script.js"></script>
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header"><h3>Click en "C" para cambiar el acorde y en "Major" para cambiar el tipo de acorde</h3></div>
+        <div class="modal-content">
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
   </body>
 </html>

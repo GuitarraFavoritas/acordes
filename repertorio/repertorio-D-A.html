@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Guitarra </title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img
+          src="https://cdn.pixabay.com/photo/2021/10/05/15/58/guitar-6683101_960_720.jpg"
+          alt="user"
+        />
+      </div>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li> 
+        <li><a href="../repertorio/tecnica-acordes-D&A.html">Practicar Acordes</a></li>
+        <li><a href="repertorio-D-A.html">Canciones con <br> acordes D y A</a></li>
+        <li><a href="../repertorio/repertorio-D-A-E.html">Canciones con<br> acordes D, A y E</a></li>
+        <li><a href="../wonderwall/wonderwall.html">Wonderwall <br>(Em-G-D-A)</a></li>  
+      </ul>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Canciones para practicar <br> Acordes D y A</h1>
+      <button class="cta-btn" id="open">Diccionario de Acordes</button>
+      
+    </header>
+      <div class="temporizador">              
+      <iframe class="iframe-temporizador" src="https://guitarrafavoritas.github.io/simple-timer/?time=10" width="160px" height="100%" frameborder="0" ></iframe>          
+    </div>
+      <div class="container"> 
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/give-peace-a-chance-ofra-haza-ofrachai-ofra-alive-prhhy" width="100%"></iframe>
+        </div>
+        
+        
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/blake-shelton-feat-pistol-annies-friends-songs/boys-round-here-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/doug-sahm-the-sir-douglas-quintet-songs/mendocino-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/kacey-musgraves-songs/blowin-smoke-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/bob-marley-the-wailers-songs/keep-on-moving-5-chords" width="100%"></iframe>
+        </div>
+
+        
+
+
+      </div>  
+      
+
+
+
+
+    <!------------------ Modal --------------->
+    
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header"><h3>Click en "C" para cambiar el acorde y en "Major" para cambiar el tipo de acorde</h3></div>
+        <div class="modal-content">
+          <p></p>
+          <iframe src="https://guitarapp.com/chords/embedtool?theme=light" title="Online Chord Tool" style="width: 360px; height:560px; border-style: none; border-radius: 4px;"> </iframe>
+          <p>Music tools provided by <a href="https://www.guitarapp.com/" target="_blank" rel="noopener">GuitarApp</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
+
+

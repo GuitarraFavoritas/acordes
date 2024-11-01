@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Guitarra </title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img
+          src="https://cdn.pixabay.com/photo/2021/10/05/15/58/guitar-6683101_960_720.jpg"
+          alt="user"
+        />
+      </div>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li> 
+        <li><a href="../repertorio/tecnica-acordes-D&A.html">Practicar Acordes</a></li>
+        <li><a href="../repertorio/repertorio-D-A.html">Canciones con <br> acordes D y A</a></li>
+        <li><a href="repertorio-D-A-E.html">Canciones con<br> acordes D, A y E</a></li>
+        <li><a href="../wonderwall/wonderwall.html">Wonderwall <br>(Em-G-D-A)</a></li>   
+      </ul>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Canciones para practicar <br> Acordes D, A y E</h1>
+      <button class="cta-btn" id="open">Diccionario de Acordes</button>
+      
+    </header>
+      <div class="temporizador">              
+      <iframe class="iframe-temporizador" src="https://guitarrafavoritas.github.io/simple-timer/?time=10" width="160px" height="120%" frameborder="0" ></iframe>          
+    </div>
+      <div class="container"> 
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/abba-songs/i-have-a-dream-3-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/pica-pica-la-bamba-videoclip-oficial-pica-pica-oficial" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/bob-marley-the-wailers-songs/three-little-birds-chords" width="100%"></iframe>
+        </div>
+        
+        
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/elvis-presley-songs/that-s-all-right-2-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/inner-circle-songs/games-people-play-2-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/coti-feat-paulina-rubio-julieta-venegas-songs/nada-fue-un-error-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/snow-patrol-songs/chasing-cars-5-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/emmylou-harris-jambalaya-country-classic-70th-coockiestv" width="100%"></iframe>
+        </div>        
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/campbell-brothers-revival-down-on-the-corner-campbell-brothers" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/billy-ray-cyrus-songs/achy-breaky-heart-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/felicitaciones-con-cancion-cumpleanos-feliz-hermoso-mensaje-cumpleanos-feliz" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/mi-amigo-el-tordillo-carlos-isaac-lara-deivyz" width="100%"></iframe>
+        </div>        
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/mary-chapin-carpenter-songs/down-at-the-twist-and-shout-2-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/paul-young-songs/love-of-the-common-people-2-chords" width="100%"></iframe>
+        </div>
+
+        <div class="cancion">
+          <iframe frameborder="0" height="556" src="https://chordify.net/embed/andar-conmigo-edicion-especial-romanticas-2022-puro-edicion-especial" width="100%"></iframe>
+        </div>
+        
+
+      </div>  
+      
+
+
+
+
+    <!------------------ Modal --------------->
+    
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header"><h3>Click en "C" para cambiar el acorde y en "Major" para cambiar el tipo de acorde</h3></div>
+        <div class="modal-content">
+          <p></p>
+          <iframe src="https://guitarapp.com/chords/embedtool?theme=light" title="Online Chord Tool" style="width: 360px; height:560px; border-style: none; border-radius: 4px;"> </iframe>
+          <p>Music tools provided by <a href="https://www.guitarapp.com/" target="_blank" rel="noopener">GuitarApp</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
+
+
